@@ -10,7 +10,7 @@ const imageBounds = [[0, 0], [3321, 4088]]; // Bottom-left and top-right corners
 console.log('Image Bounds:', imageBounds);
 
 // Add the image overlay to the map
-L.imageOverlay('assets/images/map.png', imageBounds).addTo(map);
+L.imageOverlay('images/maps/map.png', imageBounds).addTo(map);
 
 // Automatically adjust the map to fit the image with padding
 map.fitBounds(imageBounds, { padding: [50, 50] });
